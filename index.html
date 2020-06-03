@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="urf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -12,11 +12,29 @@
 
 <body>
 
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="index.html">Ristorante Con Fusion</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="collapsable-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <header class="jumbotron"> <!-- sets apart this part of the page from others -->
         <div class="container"> 
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm-6">
@@ -47,7 +65,7 @@
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content last-item align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -65,8 +83,8 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -84,12 +102,12 @@
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a><br>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a><br>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a><br>
-                        <a href="http://twitter.com/">Twitter</a><br>
-                        <a href="http://youtube.com/">YouTube</a><br>
-                        <a href="mailto:">Mail</a><br>
+                        <a href="http://google.com/+">Google+</a><br class="hidden-custom">
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a><br class="hidden-custom">
+                        <a href="http://www.linkedin.com/in/">LinkedIn</a><br class="hidden-custom">
+                        <a href="http://twitter.com/">Twitter</a><br class="hidden-custom">
+                        <a href="http://youtube.com/">YouTube</a><br class="hidden-custom">
+                        <a href="mailto:">Mail</a><br class="hidden-custom">
                     </div>
                 </div>
            </div>

@@ -4,12 +4,16 @@
 }
 
 .row-content {
-	margin: 0px auto;
+	margin-top: 10px auto;
 	padding: 50px 0 50px 0;
 	border-bottom: 1px ridge;
 	min-height: 400px;
+	border-radius: 1px;
 }
 
+.last-item {
+	margin-bottom: 20px;
+}
 .footer {
 	background-color: #d1c4e9;
 	margin: 0px auto;
@@ -21,10 +25,31 @@
 	margin: 0px auto;
 	background-color: #9575cd;
 	color: floralwhite;
+	border-radius: 0px;
 }
 
 .address {
 	font-size: 80%;
 	margin: 0px;
 	color: #0f0f0f;
+}
+
+.row-aboutus {
+	margin-top: 10px;
+	border-bottom: 1px ridge;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 632px) {
+
+	.hidden-custom {
+		display: none;
+	}
+
+	.row-aboutus {
+		margin-left: 1px;
+	}
 }
